@@ -1,0 +1,35 @@
+# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+
+# Local Cloudflare credentials
+CADASTRO (LEIA).txt
+.streamlit/secrets.toml
+
+# Build / PyInstaller
+build/
+dist/
+*.spec
+*.exe
+
+# Streamlit
+.streamlit/config.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
